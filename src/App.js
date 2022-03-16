@@ -4,7 +4,7 @@ import Parent from './Parent.js'
 import React,{useState} from 'react';
 import ValueContext from './ValueContext';
 function App() {
-  let value=81;
+  let value=useState(84);
   //let [number,SetNum]=useState(45);
   return (
     <ValueContext.Provider value={value}>
